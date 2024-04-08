@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div class = "Gotologo"></div>
+    <div class="hide">Founded on the day when the 2024 total solar eclipse occurred, April 8th.</div>
+
+    <div class = "subt">
+        <label>Your Favorite Go-To Batangas Delicacies</label>
+    </div>
+
+    <div class = "inf">
+        <label>Feel like in Batangas with our dishes on the go, wherever in the Philippines you are.<br>Try our best selling Goto, Bulalo and Lomi Batangas.</label>
+    </div>
+    
+    <div class="nametbox">
+        <label for="full-name" style="margin-top: -1px;">Name</label>       
+        <input id="full-name" name="full-name" type="text"/>     
+    </div>
+
+    <div class="emailtbox">
+        <label for="email" style="margin-top: -1px;">Email</label>
+        <input id="email"
+                name="email"
+                type="email"
+                placeholder="name@example.com"
+        />
+    </div>
+
+    <div class="agetbox">
+        <label for="age" style="margin-top: -1px;">Age</label>       
+        <input id="age" name="age" type="text"/>     
+    </div>
+
+    <div>
+        <fieldset class="MOPS">
+            <legend style="font-family: savetana; position: relative; left: 25%;">Mode of Payment:</legend>
+                <input id="pay-type 1"
+                name="pay-type"
+                type="radio"
+                value="ca"
+                />
+                <label for="pay-type-1" class="radio-label" style="color: chartreuse;">
+                Cash</label>
+        
+                <input id="pay-type 2"
+                name="pay-type"
+                type="radio"
+                value="gc"
+                />
+                <label for="pay-type-2" class="radio-label" style="color: cornflowerblue;">
+                GCash</label>
+
+                <input id="pay-type 3"
+                name="pay-type"
+                type="radio"
+                value="cod"
+                />
+                <label for="pay-type-3" class="radio-label" style="color: #ff8c00;">
+                Cash on delivery</label>
+        </fieldset>
+
+        <fieldset class="DITO">
+            <legend style="font-family: savetana; position: relative; left: 25%;">Ways to enjoy:</legend>
+                <input id="eat-type 1"
+                name="eat-type"
+                type="radio"
+                value="di"
+                />
+                <label for="eat-type-1" class="radio-label" style="color: rgb(255, 230, 0);">
+                Dine-in</label>
+        
+                <input id="eat-type 2"
+                name="eat-type"
+                type="radio"
+                value="to"
+                />
+                <label for="eat-type-2" class="radio-label" style="color: rgb(255, 196, 0);">
+                Take-out</label>
+
+                <input id="eat-type 3"
+                name="eat-type"
+                type="radio"
+                value="fd"
+                />
+                <label for="eat-type-2" class="radio-label" style="color: #ff9a1e;">
+                Delivery</label>
+        </fieldset>
+    
+            <div class='comins'>
+                <label for='abstract'>Comment or instruction:</label>
+                <textarea id='abstract' name='abstract'></textarea>
+               </div>
+               
+
+    <div id="dropdown">
+        <button class="dropdown-toggle">
+            <span>Menu</span>
+            <i class="fa-solid fa-caret-down"></i>
+        </button>
+        <ul class="menu">
+            <li class="menu-item dropdown">
+                <a href="#" class="submenu-toggle">
+                    <span>Goto Batangas</span>
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+                <ul class="submenu">
+                    <li class="submenu-item"><a href="#">Regular</a></li>
+                    <li class="submenu-item"><a href="#">Big</a></li>
+                    <li class="submenu-item"><a href="#">Overload</a></li>
+                </ul>
+            </li>
+            <li class="menu-item dropdown">
+                <a href="#" class="submenu-toggle">
+                    <span>Lomi Batangas</span>
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+                <ul class="submenu">
+                    <li class="submenu-item"><a href="#">Regular</a></li>
+                    <li class="submenu-item"><a href="#">Big</a></li>
+                    <li class="submenu-item"><a href="#">Overload</a></li>
+                </ul>
+            </li>
+            <li class="menu-item dropdown">
+                <a href="#" class="submenu-toggle">
+                    <span>Bulalo</span>
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+                <ul class="submenu">
+                    <li class="submenu-item"><a href="#">Regular</a></li>
+                    <li class="submenu-item"><a href="#">Big</a></li>
+                    <li class="submenu-item"><a href="#">Overload</a></li>
+                </ul>
+            </li>
+            <li class="menu-item dropdown">
+                <a href="#" class="submenu-toggle">
+                    <span>More Dishes</span>
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+                <ul class="submenu">
+                    <li class="submenu-item"><a href="#">Pancit Tostado</a></li>
+                    <li class="submenu-item"><a href="#">Bopis</a></li>
+                    <li class="submenu-item"><a href="#">Adobo sa Dilaw</a></li>
+                    <li class="submenu-item"><a href="#">Sinaing na Tulingan</a></li>
+                    <li class="submenu-item"><a href="#">Sinigang na Maliputo</a></li>
+                    <li class="submenu-item"><a href="#">Afritadang Batangas</a></li>
+                </ul>
+            </li>
+            <li class="menu-item dropdown">
+                <a href="#" class="submenu-toggle">
+                    <span>Add-ons/Extras</span>
+                    <i class="fa-solid fa-caret-right"></i>
+                </a>
+                <ul class="submenu">
+                    <li class="submenu-item"><a href="#">Plain Rice</a></li>
+                    <li class="submenu-item"><a href="#">Fried Rice</a></li>
+                    <li class="submenu-item"><a href="#">Garlic Rice</a></li>
+                    <li class="submenu-item"><a href="#">Soup</a></li>
+                    <li class="submenu-item"><a href="#">Boiled Egg</a></li>
+                </ul>
+            </li>
+        </li>
+        <li class="menu-item dropdown">
+            <a href="#" class="submenu-toggle">
+                <span>Drinks</span>
+                <i class="fa-solid fa-caret-right"></i>
+            </a>
+            <ul class="submenu">
+                <li class="submenu-item"><a href="#">Coke</a></li>
+                <li class="submenu-item"><a href="#">Royal</a></li>
+                <li class="submenu-item"><a href="#">Sprite</a></li>
+                <li class="submenu-item"><a href="#">Iced Tea</a></li>
+                <li class="submenu-item"><a href="#">Pineapple Juice</a></li>
+            </ul>
+        </li>
+        </ul>
+    </div>
+
+    <button class="button1">Place Order</button>
+    <button class="button2">Cancel</button>
+    
+        <script src='script.js'></script>
+</body>
+</html>

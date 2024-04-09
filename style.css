@@ -186,7 +186,7 @@ i {
   animation: fadeIn 0.5s;
     position: absolute;
     top: 29px;
-    right: 38.5%;
+    right: 41.5%;
     display: inline;
     font-family: lightt;
     color: rgb(255, 251, 0);
@@ -208,7 +208,7 @@ i {
     color: #fff1c9;
     position: absolute;
     top: 400px;
-    right: 44.2%;
+    right: 45.6%;
 }
 
 .emailtbox{
@@ -216,7 +216,7 @@ i {
     color: #fff1c9;
     position: absolute;
     top: 425px;
-    right: 44.2%;
+    right: 45.6%;
 }
 
 .agetbox{
@@ -224,7 +224,7 @@ i {
     color: #fff1c9;
     position: absolute;
     top: 450px;
-    right: 44.2%;
+    right: 45.6%;
 }
 
 .MOPS{
@@ -233,7 +233,7 @@ i {
     color: #fff1c9;
     position: absolute;
     top: 530px;
-    right: 41.5%;
+    right: 43.4%;
 }
 
 .DITO{
@@ -242,14 +242,14 @@ i {
     color: #fff1c9;
     position: absolute;
     top: 579px;
-    right: 42.2%;
+    right: 44.1%;
 }
 
 .comins label{
     font-family: savetana;
     position: absolute;
     top: 625px;
-    right: 43.7%;
+    right: 45.6%;
     color: #fff1c9;
 }
 
@@ -262,14 +262,14 @@ i {
     min-width: 250px;
     position: absolute;
     top: 648px;
-    right: 43.1%;
+    right: 43.5%;
     resize: none;
 }
 
 .subt{
     position: absolute;
     top: 245px;
-    right: 41.5%;
+    right: 43%;
     font-family: cat;
     color: #fdff8d;
 }
@@ -277,7 +277,7 @@ i {
 .inf{
     position: absolute;
     top: 280px;
-    right: 37.4%;
+    right: 40%;
     font-family: lightt;
     color: #feffb2;
 }
@@ -310,7 +310,7 @@ i {
     border-radius: 16px;
     position: absolute;
     top: 860px;
-    right: 51%;
+    right: 52%;
   }
   
   .button1:hover {
@@ -330,7 +330,7 @@ i {
     border-radius: 16px;
     position: absolute;
     top: 860px;
-    right: 42%;
+    right: 42.5%;
   }
   
   .button2:hover {
